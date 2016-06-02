@@ -1,7 +1,21 @@
-#eighteen {
+#age {
+  width: 15%;
+  min-width: 100px;
+  margin: auto;
+}
+#height {
+  width: 15%;
+  min-width: 100px;
+  margin: auto;
+}
+
+body {
+  text-align: center;
+}
+.malePage {
   display: none;
 }
 
-#notEighteen {
+.yourDate {
   display: none;
 }

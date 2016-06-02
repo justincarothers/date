@@ -1,36 +1,81 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
-    <script src="js/main.js" charset="utf-8"></script>
-  </head>
-  <body>
-    <div class="container-fluid">
-      <h1>Are you eligible to vote?</h1>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
+  <script src="js/main.js" charset="utf-8"></script>
+</head>
+<body>
+  <div class="mainPage">
 
-      <div class="col-sm-6" id="intro">
-        <h2>What is your age?</h2>
-      </div>
-
-      <div id="eighteen">
-        <div class="col-sm-6">
-            <h1>Congratulations! You are old enough to vote.</h1>
-
-        </div>
-      </div>
-      <div id="notEighteen">
-        <div class="col-sm-6">
-            <h1>ACCESS DENIED</h1>
-            <h2>To learn more about how to grow up and vote, please visit <a href="http://fakeID.com"> FAKE ID International.</h2>
-        </div>
-      </div>
-
+    <div class="container">
+      <h1>Welcome to the worlds greatest dating website!</h1>
+      <p>
+        What gender are you looking for?
+      </p>
     </div>
 
+    <form id="dating" class="" action="index.html" method="post">
+      <div class="gender">
+        <form class="radio-inline" >
+          <input type="radio" name="gender" value="male" checked> Male<br>
+          <input type="radio" name="gender" value="female"> Female<br>
+        </form>
+      </div>
+      <hr>
+      <div class="">
+        <p>
+          Hair color?
+        </p>
+      </div>
+      <div class="hairColor">
+        <form class="radio-inline" >
+
+          <input type="radio" name="hair" value="blonde" checked> Blonde<br>
+          <input type="radio" name="hair" value="brunette"> Brunette<br>
+        </form>
+        <br>
+        <hr>
+      </div>
+      <div class="">
+        <p>
+          What age?
+        </p>
+      </div>
+      <div class="inputField">
+        <form >
+          <div class="form-group">
+            <label for="age"></label>
+            <input id="age" class="form-control" type="text" value="">
+          </div>
+
+        </div>
+        <p>
+          Height?
+        </p>
+        <div class="">
+          <select class="form-control" id="height">
+            <option >Tall</option>
+            <option >Short</option>
+          </select>
+        </div>
+        <div class="submitButton">
+          <button type="button" name="button">GET A DATE</button>
+        </div>
+      </form>
+    </div>
+    <div class="yourDate">
+      <h1>You get 1 night at a sleezy hotel with: </h1>
+      <img src="img/scarlett.jpg" alt="" />
+      <h1><span ></span></h1>
+    </div>
+
+    <div class="malePage">
+      <h1>See another pages </h1>
+    </div>
 
   </body>
-</html>
+  </html>
